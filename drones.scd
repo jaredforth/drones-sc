@@ -16,7 +16,7 @@ g = ~octave_synth.value(49.0, 98.0);
 ~gis_aes = ~octave_synth.value(51.9, 103.8);
 a = ~octave_synth.value(55.0, 110.0);
 ~ais_bes = ~octave_synth.value(58.3, 116.5);
-b = ~octave_synth.value(58.3, 116.5);
+b = ~octave_synth.value(61.7, 123.5);
 
 p = List.new(0);
 ~free_all = { p.do({ arg item; item.free }) };
